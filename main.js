@@ -2,7 +2,7 @@ import './style.css'
 
 
 let valueMax = 200;
-let valueLvl = 89;
+let valueLvl = 92;
 let percentWidthProgress = '0%';
 
 levelBar();
