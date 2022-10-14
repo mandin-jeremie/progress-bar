@@ -10,20 +10,34 @@ body {
 }
 
 .container-progress-bar {
-  width: 500px;
+  width: 700px;
   margin: auto;
+  position: relative;
 }
 
 .progress-bar {
-  height: 20px;
+  height: 25px;
   background-color: white;
   width: 100%;
   border-radius: 10px;
 }
 
 .level-bar {
-  height: 20px;
+  height: 25px;
   background-color: blueviolet;
   width: 25%;
   border-radius: 10px;
+}
+
+.percent-value {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5px;
+  width: 100%;
+  color: black;
+  font-size: 1em;
 }
